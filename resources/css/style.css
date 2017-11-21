@@ -1,0 +1,367 @@
+html {
+  font-size: 16px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+body {
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: capitalize;
+}
+p, li, a {
+  font-family: 'Lato', sans-serif;
+}
+/* Banner */
+
+.banner {
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  background-color: #2080df;
+  margin: 0;
+  width: 100%;
+}
+.banner .title {
+  height: 2rem;
+  display: inline-flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 1.5rem;
+}
+.banner .title img {
+  height: 100%;
+}
+.banner .title h1 {
+  display: inline;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+.banner .title #colmar {
+  color: #b3ffff;
+}
+.banner .directory {
+  height: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-right: 1.5rem;
+}
+.banner .directory li {
+  display: inline-flex;
+  line-height: 2rem;
+  margin-left: 1rem;
+}
+.banner .directory a {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+.banner .directory a:hover {
+  color: #b3ffff;
+}
+/* Head Section */
+
+.head {
+  background-color: #1a1a1a;
+  width: 100%;
+  padding: 2rem 1.5rem;
+  display: flex;
+  margin: 0;
+  overflow: hidden;
+}
+.head h1,
+.head h2 {
+  color: #b3ffff;
+}
+.head .head_img {
+  width: 60%;
+}
+.head .head_img img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.head .head_text {
+  width: 35%;
+  justify-content: right;
+  margin-left: 1.5rem;
+  line-height: 1.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.head_text h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+.head_text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+.button h3{
+  justify-content: center;
+  padding: .5rem;
+  color: #b3ffff;
+  background-color: #2080df;
+  font-size: 1rem;
+  margin: auto;
+  width: 12rem;
+  text-align: center;
+  font-weight: 400;
+  border: 1px solid #2080df;
+}
+.button h3:hover {
+  background-color: #b3ffff;
+  color: #2080df;
+}
+/* Content Boxes (small versions of Head section) */
+
+.content {
+  display: inline-flex;
+  width: 85%;
+  height: 12rem;
+  padding: 1rem;
+  border: 1px solid #b3ffff;
+}
+.content .cont_img {
+  width: 35%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+}
+.content .cont_img img {
+  min-width: initial;
+  overflow: hidden;
+  display: inline;
+}
+.content .cont_text {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  padding-left: 1.5rem;
+  line-height: 1.5rem;
+}
+.content .cont_text h3 {
+  font-weight: 700;
+  padding-bottom: .5rem;
+  font-size: 1.5rem;
+}
+.content .cont_text p {
+  padding-bottom: .5rem;
+}
+.content .cont_text a:hover {
+  color: #b3ffff;
+}
+.content .cont_text a {
+  color: #000;
+}
+ /* Main Section */
+
+ .main {
+   display: flex;
+   width: 100%;
+   margin: 0;
+   padding: 2rem 1.5rem;
+   background-color: #2080df;
+ }
+.main p {
+  color: #b3ffff;
+}
+.main_story {
+  width: 60%;
+  margin-right: 1.5rem;
+}
+.main_story h2 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.main_story p {
+  text-align: center;
+  line-height: 1.5rem;
+}
+.main_story img {
+  width: 100%;
+  height: auto;
+  padding-right: 1.5rem;
+}
+.main .container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-start;
+}
+
+/* Courses Grid */
+
+.courses {
+  background-color: #1a1a1a;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.courses h2 {
+  text-align: center;
+  font-weight: 700;
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #e9fbfb;
+}
+.courses .container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.course_content {
+  margin: 2rem;
+  background-color: #e9fbfb;
+  overflow: hidden;
+  width: 30%;
+  justify-content: center;
+}
+.course_content h3 {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.course_content h4 {
+  padding: .5rem 1rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.course_content p {
+  line-height: 2rem;
+  font-weight: 200;
+}
+.course_content img {
+  display: block;
+  margin: 0 auto;
+}
+.course_txt {
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Overlay and Hover effect for courses section */
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: #1a1a1a;
+  opacity: 1;
+}
+#c_cont1,
+#c_cont2,
+#c_cont3,
+#c_cont4,
+#c-cont5,
+#c_cont6:hover {
+  z-index: 10;
+}
+.course_content:hover > #overlay {
+  opacity: 0.5;
+}
+ /* Thesis Exhibit */
+
+ .thesis {
+   width: 100%;
+   margin: 0;
+   background-color: #2080df;
+ }
+ .thesis p {
+   color: #b3ffff;
+ }
+ .thesis_frame {
+   display: flex;
+   width: 100%;
+   overflow: hidden;
+   padding-bottom: 2rem;
+   padding-top: 2rem;
+ }
+ .thesis .container {
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+ }
+ .thesis h2 {
+   width: 100%;
+   text-align: center;
+   font-weight: 700;
+   font-size: 2rem;
+   margin-bottom: 2rem;
+   padding-top: 2rem;
+ }
+.thesis .video {
+  width: 60%;
+  margin: 1.5rem;
+}
+.thesis .video video {
+  width: 100%;
+  height: auto;
+}
+.thesis .video h3 {
+  margin-top: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+.thesis .video p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  border-top: 1px solid #b3ffff;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+}
+.footer .copyright p {
+  display: inline;
+  text-align: left;
+  font-size: .75rem;
+  font-weight: 100;
+  margin-left: 1.5rem;
+  color: #b3ffff;
+}
+.footer .foot_nav ul {
+  display: inline-flex;
+}
+.footer .foot_nav li {
+  display: inline;
+}
+.footer .foot_nav a {
+  display: inline;
+  text-align: right;
+  padding: 1rem;
+  font-weight: 100;
+  font-size: .75rem;
+  color: #b3ffff;
+}
+.footer .foot_nav a:hover {
+  color: #2080df;
+}
